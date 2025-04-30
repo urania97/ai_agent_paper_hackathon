@@ -1,0 +1,13 @@
+# requirements.txt
+pip install fastapi uvicorn[standard] pdfplumber pymupdf httpx pydantic jinja2
+pip install transformers scikit-learn langdetect python-multipart
+pip install ipykernel
+python -m ipykernel install --user --name=ai_agent_env --display-name "Python (AI Agent)"
+pip install "uvicorn[standard]"
+pip install openai
+pip install python-dotenv
+pip install langchain transformers accelerate
+pip install PyPDF2 pdfplumber Pillow
+pip install langchain-deepseek
+pip install langgraph
+pip install langgraph langchain-experimental langchain-openai
